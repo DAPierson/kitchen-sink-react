@@ -16,7 +16,7 @@ class App extends Component {
         super(props)
 
         this.state = {
-            text: 'some string',
+            text: 'Much Easier!',
             placeholder: "Text goes here",
             hasloaded: false,
 
@@ -64,7 +64,7 @@ class App extends Component {
         if (this.state.hasloaded === true){
         return (
             <React.Fragment>
-                <h1> {this.props.text} {this.state.text}</h1>
+                <h1>{this.props.text} {this.state.text}</h1>
 
                 <div className="input-group input-group-sm mb-3">
                     <div className="input-group-prepend">
